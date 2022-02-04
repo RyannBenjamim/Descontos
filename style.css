@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FA94C4;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 40px;
+    width: 330px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.116);
+}
+
+h1 {
+    font-family: 'Righteous', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.281);
+    letter-spacing: 1px;
+    opacity: 90%;
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.932);
+}
+
+input {
+    outline: none;
+    padding-left: 10px;
+    width: 260px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 1px gainsboro;
+}
+
+button {
+    width: 280px;
+    height: 50px;
+    border: solid 1px gainsboro;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+    background-color: #fa94c4d0;
+}
